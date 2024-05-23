@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    color: white;
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+
+.dropdowns {
+    display: flex;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(161, 199, 186);
+    border: 1px solid black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(161, 199, 186);
+}
+body{
+        margin: 0;
+        height: 100vh; 
+        background-image: url('image.jpg'); 
+        background-size: cover; 
+        background-attachment: fixed; 
+        background-position: center; 
+        background-repeat: no-repeat;
+}
+h1{
+    color: #f9f9f9;
+    text-decoration: underline;
+    padding: 15px;
+}
+h2{
+    color: #f9f9f9;
+    padding: 15px;
+}
+p{
+    color: #f9f9f9;
+    padding: 30px;
+}
+h3{
+    color: #f9f9f9;
+    padding: 20px;
+    text-decoration: underline;
+}
+.topline{
+    display: block;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #ffffff;
+ }
+ .topline::after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 45px;
+    bottom: 10px;
+    background-color: rgb(161, 199, 186);
+ }
+ h1{
+    display: block;
+    font-size: 7em;
+    font-weight: 90;
+    color: #ffffff;
+ }
+ .multiText{
+    color: rgb(161, 199, 186);
+    text-transform: capitalize;
+ }
+ p{
+    display: block;
+    width: 90%;
+    font-size: 1.2em;
+    color: #ffffff;
+ }
+
+
+
